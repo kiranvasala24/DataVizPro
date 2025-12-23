@@ -1,134 +1,104 @@
-DataViz Pro
+# DataViz Pro
 
-DataViz Pro is a frontend-heavy data analytics application that converts Excel and CSV files into interactive dashboards with explainable insights, running entirely in the browser.
+**DataViz Pro** is a frontend-heavy data analytics application that converts Excel and CSV files into interactive dashboards with explainable insights, running entirely in the browser.
 
-Live Demo
+---
 
-URL: 
+## Live Demo
 
-Version: v1.0.0 (Launch Edition)
+**URL:** 
 
-Overview
+**Version:** v1.0.0 (Launch Edition)
 
-DataViz Pro enables fast exploratory data analysis without BI tools or backend setup.
+---
 
-After uploading a dataset, the app automatically:
+## Overview
 
-Detects column types and relationships
+DataViz Pro enables fast exploratory data analysis without BI tools or backend setup. After uploading a dataset, the app automatically:
 
-Generates interactive charts
-
-Evaluates data quality
-
-Surfaces explainable AI insights
-
-Allows exporting and sharing results
+- Detects column types and relationships  
+- Generates interactive charts  
+- Evaluates data quality  
+- Surfaces explainable AI insights  
+- Allows exporting and sharing results  
 
 All processing happens client-side. No data is stored or sent to a server.
 
-Features
-Data Upload & Parsing
+---
 
-Excel (.xlsx, .xls) and CSV support
+## Features
 
-Drag-and-drop upload
+### Data Upload & Parsing
 
-File validation (≤10MB, ≤100K rows, ≤100 columns)
+- Excel (.xlsx, .xls) and CSV support  
+- Drag-and-drop upload  
+- File validation (≤10MB, ≤100K rows, ≤100 columns)  
+- Multi-sheet Excel handling  
+- Real-time parsing feedback and errors  
 
-Multi-sheet Excel handling
+### Dashboards & Visualization
 
-Real-time parsing feedback and errors
+- Responsive grid layout  
+- Bar, Line, Pie, Area, Scatter charts  
+- Configurable axes and aggregations (sum, avg, count, min, max)  
+- Analyst, Business, and Executive view modes  
 
-Dashboards & Visualization
+### Data Quality & Profiling
 
-Responsive grid layout
+- Overall data quality score (0–100)  
+- Detection of missing values, duplicates, and outliers  
+- Column-level health metrics  
+- Statistical summaries and correlation analysis  
 
-Bar, Line, Pie, Area, Scatter charts
+### AI Insights
 
-Configurable axes and aggregations (sum, avg, count, min, max)
+- Automatic detection of trends, anomalies, and correlations  
+- Confidence scores with explainability  
+- Graceful fallback to local analysis if AI is unavailable  
+- Clear messaging for weak or inconclusive insights  
 
-Analyst, Business, and Executive view modes
+### Export & Trust
 
-Data Quality & Profiling
+- Export dashboards as PNG or PDF  
+- Download dashboard configuration as JSON  
+- Built-in sample datasets for quick demos  
+- Privacy-first design: data never leaves the browser  
 
-Overall data quality score (0–100)
+---
 
-Detection of missing values, duplicates, and outliers
+## Use Cases
 
-Column-level health metrics
+- Exploratory data analysis  
+- Dataset validation before modeling  
+- Executive-level summaries from raw data  
 
-Statistical summaries and correlation analysis
+> **Note:** Not intended to replace enterprise BI platforms (e.g., Power BI, Tableau).
 
-AI Insights
+---
 
-Automatic detection of trends, anomalies, and correlations
+## Tech Stack
 
-Confidence scores with explainability
+- React  
+- TypeScript  
+- Vite  
+- Tailwind CSS  
+- shadcn/ui  
+- Recharts  
+- Framer Motion  
+- Lovable AI (Edge Functions)  
 
-Graceful fallback to local analysis if AI is unavailable
+---
 
-Clear messaging for weak or inconclusive insights
+## Getting Started
 
-Export & Trust
+### Run Locally
 
-Export dashboards as PNG or PDF
-
-Download dashboard configuration as JSON
-
-Built-in sample datasets for quick demos
-
-Privacy-first design: data never leaves the browser
-
-Use Cases
-
-Exploratory data analysis
-
-Dataset validation before modeling
-
-Executive-level summaries from raw data
-
-Not intended to replace enterprise BI platforms (e.g., Power BI, Tableau).
-
-Tech Stack
-
-React
-
-TypeScript
-
-Vite
-
-Tailwind CSS
-
-shadcn/ui
-
-Recharts
-
-Framer Motion
-
-Lovable AI (Edge Functions)
-
-Getting Started
-Run Locally
+```bash
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 npm install
 npm run dev
 
-Edit with Lovable
-
-Edit the project directly using Lovable:
-
-https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
-
-Changes made via Lovable are automatically committed to this repository.
-
-Deployment
-
-Deploy directly from Lovable:
-
-Share → Publish
-
-Custom domains can be configured through project settings.
 
 Author
 
