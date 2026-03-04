@@ -238,14 +238,7 @@ const Index = () => {
                 Turns raw Excel and CSV files into explainable, shareable dashboards with built-in data quality checks and AI insights — entirely in the browser.
               </p>
               <div className="flex items-center gap-4">
-                <a 
-                  href="https://github.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-foreground transition-colors"
-                >
-                  GitHub
-                </a>
+                
                 <span className="text-border">•</span>
                 <span>No signup required</span>
                 <span className="text-border">•</span>

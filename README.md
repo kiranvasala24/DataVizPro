@@ -105,30 +105,12 @@ Recharts
 
 Framer Motion
 
-Lovable AI (Edge Functions)
-
 Getting Started
 Run Locally
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 npm install
 npm run dev
-
-Edit with Lovable
-
-Edit the project directly using Lovable:
-
-https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
-
-Changes made via Lovable are automatically committed to this repository.
-
-Deployment
-
-Deploy directly from Lovable:
-
-Share → Publish
-
-Custom domains can be configured through project settings.
 
 Author
 
